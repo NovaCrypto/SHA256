@@ -15,7 +15,7 @@ Or:
 ```
 repositories {
     maven {
-        url 'https://dl.bintray.com/novacrypto/SHA256/'
+        url 'https://dl.bintray.com/novacrypto/BIP/'
     }
 }
 ```
