@@ -39,6 +39,10 @@ public final class Sha256 {
         return digest.digest();
     }
 
+    public static byte[] sha256Twice(final byte[] bytes) {
+        return sha256Twice(bytes, 0, bytes.length);
+    }
+
     public static byte[] sha256Twice(final byte[] bytes, final int offset, final int length) {
         final MessageDigest digest = sha256();
         digest.update(bytes, offset, length);
