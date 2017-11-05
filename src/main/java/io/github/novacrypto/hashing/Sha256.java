@@ -29,6 +29,9 @@ import static io.github.novacrypto.toruntime.CheckedExceptionToRuntime.toRuntime
 
 public final class Sha256 {
 
+    Sha256() {
+    }
+
     public static byte[] sha256(final byte[] bytes) {
         return sha256(bytes, 0, bytes.length);
     }
