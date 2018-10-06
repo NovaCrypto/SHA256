@@ -24,7 +24,7 @@ Add dependency:
 
 ```
 dependencies {
-    compile 'io.github.novacrypto:SHA256:0.0.1@jar'
+    compile 'io.github.novacrypto:SHA256:2018.10.06@jar'
 }
 
 ```
