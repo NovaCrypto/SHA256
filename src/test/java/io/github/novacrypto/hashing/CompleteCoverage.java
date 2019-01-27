@@ -23,10 +23,13 @@ package io.github.novacrypto.hashing;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertNotNull;
+
 public final class CompleteCoverage {
 
     @Test
     public void packageProtectedConstructorForCoverage() {
-        new Sha256();
+        //noinspection ObviousNullCheck
+        assertNotNull(new Sha256());
     }
 }
