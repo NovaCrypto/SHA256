@@ -2,21 +2,11 @@
 
 # Install
 
-Use either of these repositories:
+Using:
 
 ```
 repositories {
-    jcenter()
-}
-```
-
-Or:
-
-```
-repositories {
-    maven {
-        url 'https://dl.bintray.com/novacrypto/Hashing/'
-    }
+    mavenCentral()
 }
 ```
 
@@ -24,7 +14,7 @@ Add dependency:
 
 ```
 dependencies {
-    compile 'io.github.novacrypto:SHA256:2019.01.27@jar'
+    implementation 'io.github.novacrypto:SHA256:2022.01.17@jar'
 }
 
 ```
